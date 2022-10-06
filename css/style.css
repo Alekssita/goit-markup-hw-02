@@ -72,7 +72,7 @@ body {font-family: var(--main-font);
 
                 /*рішення для вашого бізнесу */
 
-    .sectio-biznes
+    .hero-title
     {   background-color:var(--logo-wrap-color) ;
         font-weight: 900;
         font-size: 44px;
@@ -82,7 +82,7 @@ body {font-family: var(--main-font);
         text-transform: uppercase;
         color: var(--main-light); 
     }
-    .poslugu-btn {
+    .hero-btn {
         cursor: pointer;
         background-color:var(--secondary-color) ;
         font-family: var (--main-font);
@@ -115,7 +115,7 @@ body {font-family: var(--main-font);
 
                     /*умови*/
 
-.sectio-title
+.benefits-list
 {
 font-family: var(--main-font);
 font-weight: 700;
@@ -126,13 +126,13 @@ letter-spacing: 0.03em;
 color: var(--main-dark);
 }
 
-.umovu-title {
+.ubenefits-list-title {
     font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-dark);
 }
-.umovu-title-opus {
+.ubenefits-list-title-description {
    font-weight: 400;
    line-height: 1.71;
     letter-spacing: 0.03em;
@@ -140,7 +140,7 @@ color: var(--main-dark);
 }
 
             /*Наша команда*/
-.komanda-title {
+.team-list-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -148,7 +148,7 @@ color: var(--main-dark);
     letter-spacing: 0.03em;
     color: var(--main-dark);
 }
-.komanda-prof {
+.team-list-name-profession {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -166,7 +166,7 @@ letter-spacing: 0.06em;
 color: var(--main-dark);
 }
 
-.tovar-title-nomenklatura 
+.tovar-title-nomenklatura
 { 
     font-size: 16px;
     line-height: 1.88px;
