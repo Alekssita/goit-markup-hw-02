@@ -1,0 +1,206 @@
+:root {
+--main-font:'Roboto', sans-serif;
+        
+
+            /*color */
+--main-light:#fff;
+--main-dark:#212121;
+--main-color-font: #757575;
+--secondary-color: #2196F3;
+--logo-wrap-color:#000000;
+
+}
+body {font-family: var(--main-font);
+    color: var(--main-color-font);
+    font-size: 14px;
+
+}
+
+.link {
+    text-decoration: none;
+    }
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.container 
+{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+
+            /*header*/
+.logo
+{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+.logo-wrap {
+    color: var(--logo-wrap-color);
+}
+
+.link-nav,
+.link-contact
+ {
+    font-family: var(--main-font);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--main-dark);
+}
+
+.link-nav:hover,
+.link-nav:focus {
+    color: var(--secondary-color);
+}
+.link-contact:hover,
+.link-contact:focus {
+    color: var(--secondary-color); 
+}
+
+
+                /*рішення для вашого бізнесу */
+
+    .sectio-biznes
+    {   background-color:var(--logo-wrap-color) ;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--main-light); 
+    }
+    .poslugu-btn {
+        cursor: pointer;
+        background-color:var(--secondary-color) ;
+        font-family: var (--main-font);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: var(--main-light);
+    }
+    .filtr-btn {
+        cursor: pointer;
+        background: #F5F4FA;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.63;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--main-dark);
+    }
+    
+    .filtr-btn:hover,
+    .filtr-btn:focus {
+        background: #2196F3;
+        color: var(--main-light);
+        }
+        
+
+                    /*умови*/
+
+.sectio-title
+{
+font-family: var(--main-font);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-dark);
+}
+
+.umovu-title {
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-dark);
+}
+.umovu-title-opus {
+   font-weight: 400;
+   line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-color-font);
+}
+
+            /*Наша команда*/
+.komanda-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-dark);
+}
+.komanda-prof {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color-font);
+}
+
+.tovar-title {
+    
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--main-dark);
+}
+
+.tovar-title-nomenklatura 
+{ 
+    font-size: 16px;
+    line-height: 1.88px;
+   
+    letter-spacing: 0.03em;
+    color:var(--main-color-font);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
