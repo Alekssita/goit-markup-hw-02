@@ -9,14 +9,20 @@
 --secondary-color: #2196F3;
 --logo-wrap-color:#000000;
 
+
 }
-body {font-family: var(--main-font);
+
+body
+{
+    font-family: var(--main-font);
     color: var(--main-color-font);
     font-size: 14px;
+    letter-spacing: 0.03em;
 
 }
 
-.link {
+.link 
+{
     text-decoration: none;
     }
 
@@ -27,6 +33,7 @@ body {font-family: var(--main-font);
     padding-left: 0;
     margin: 0;
     list-style: none;
+
 }
 
 .container 
@@ -43,8 +50,7 @@ body {font-family: var(--main-font);
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+    line-height: 1.19;  
     color: var(--secondary-color);
 }
 .logo-wrap {
@@ -71,9 +77,14 @@ body {font-family: var(--main-font);
 
 
                 /*рішення для вашого бізнесу */
+    .hero 
+    {
+        background-color:var(--logo-wrap-color) ;
+        color: var(--main-dark);
+    }            
 
     .hero-title
-    {   background-color:var(--logo-wrap-color) ;
+    {   
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
@@ -92,8 +103,9 @@ body {font-family: var(--main-font);
         display: flex;
         align-items: center;
         text-align: center;
-        letter-spacing: 0.06em;
-        color: var(--main-light);
+        background: #188CE8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
     }
     .filtr-btn {
         cursor: pointer;
@@ -102,7 +114,6 @@ body {font-family: var(--main-font);
         font-size: 16px;
         line-height: 1.63;
         text-align: center;
-        letter-spacing: 0.03em;
         color: var(--main-dark);
     }
     
@@ -115,31 +126,43 @@ body {font-family: var(--main-font);
 
                     /*умови*/
 
-.benefits-list
+.benefits-list-title
 {
 font-family: var(--main-font);
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
-text-align: center;
-letter-spacing: 0.03em;
 color: var(--main-dark);
 }
 
 .ubenefits-list-title {
     font-weight: 700;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-dark);
 }
 .ubenefits-list-title-description {
    font-weight: 400;
    line-height: 1.71;
-    letter-spacing: 0.03em;
     color: var(--main-color-font);
 }
 
+                  
             /*Наша команда*/
+
+.team-title,
+.sectio-title
+{
+ text-align: center;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.43;
+color: var(--main-dark);
+}
+
+.team-list:hover {
+    background: var(--main-light);
+}
+
 .team-list-name {
     font-weight: 500;
     font-size: 16px;
@@ -149,7 +172,6 @@ color: var(--main-dark);
     color: var(--main-dark);
 }
 .team-list-name-profession {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -170,11 +192,13 @@ color: var(--main-dark);
 { 
     font-size: 16px;
     line-height: 1.88px;
-   
-    letter-spacing: 0.03em;
     color:var(--main-color-font);
 }
 
+.link-contact
+{
+    font-style: normal;
+}
 
 
 
