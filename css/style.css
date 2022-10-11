@@ -136,13 +136,11 @@ color: var(--main-dark);
 	font-size: 14px;
 	line-height: 1.14;
 	color: var(--main-dark);
-	font-weight: 700;
 	text-transform: uppercase;
 }
   
 
 .benefits-list-title-description {
-	font-weight: 400;
 	line-height: 1.71;
 	color: var(--main-color-font);
 }
@@ -157,14 +155,9 @@ color: var(--main-dark);
 	color: var(--main-dark);  
    }
 
-   .team-list:hover {
-	list-style: none;
-}
-
-   
-
-.team-list:hover {
-	background: var(--main-light);
+   .team-list {
+		background: var(--main-light);
+		list-style: none;
 }
 
 .team-list-name {
@@ -191,8 +184,7 @@ color: var(--main-dark);
 }
 
 .goods-title-nomenklatura {
-    font-weight: 400;
-	font-size: 16px;
+  	font-size: 16px;
 	line-height: 1.88px;
 	color: var(--main-color-font);
 }
@@ -222,7 +214,6 @@ color: var(--main-dark);
 .link-contact {
 font-family: 'Roboto';
 font-style: normal;
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 color: var(--main-light);
